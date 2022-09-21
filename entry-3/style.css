@@ -1,0 +1,29 @@
+header{
+    background-color: powderblue;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+main{
+    padding: 2em;
+}
+
+.text{
+    max-width: 70ch;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text:first-child {
+    margin-top: 8em;
+}
+
+
+.text:not(:first-child) {
+    margin-top: 2em;
+}
+
+
