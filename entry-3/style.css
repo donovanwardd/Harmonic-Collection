@@ -1,13 +1,23 @@
+@font-face{
+    font-family: myFirstFont;
+        src: url(Syncopate-Bold.ttf);
+}
+
 header{
     background-color: powderblue;
     padding: 1em;
     position: fixed;
     top: 0;
     width: 100%;
+    font-family:sans-serif;
+    color:whitesmoke ;
+    font-size: x-large;
+    border-bottom: solid whitesmoke 6px;
 }
 
 main{
     padding: 2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .text{
@@ -26,4 +36,64 @@ main{
     margin-top: 2em;
 }
 
+.big {
 
+    font-size: 30px;
+    background-color:thistle;
+	border-radius: 5px;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    right: 30px;
+	position: relative;
+	width: 66%;
+}
+
+.big2{
+
+    font-size: 30px;
+    background-color:thistle;
+	border-radius: 5px;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    right: 30px;
+	position: relative;
+	width: 15%;
+
+}
+
+section { position: relative; }
+
+.move1 {
+	background-color: thistle;
+	left: 220px;
+	position: absolute;
+	top: 199px;
+	width: 9.5%;
+    margin: 6px;
+    color: white;
+    opacity: 100%;
+}
+
+.move2 {
+	background-color: thistle;
+	left: 295px;
+	position: absolute;
+	top: 199px;
+	width: 9.5%;
+    margin: 6px;
+    color: white;
+    opacity: 66%;
+}
+
+.move3 {
+	background-color: thistle;
+	left: 370px;
+	position: absolute;
+	top: 199px;
+	width: 9.5%;
+    margin: 6px;
+    color: white;
+    opacity: 33%;
+}
