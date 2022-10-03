@@ -1,0 +1,50 @@
+header{
+    font-size: 20px;
+    color: black;
+    padding: 0.2em;
+    position: fixed;
+    width: 100%;
+    color:black;
+    font-size: large;
+    border-bottom: solid black 2px;
+    z-index: 9999;
+    background-color:rgb(220, 214, 205);
+    text-decoration: none;
+    top: 0;
+    background-size: 100px;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+
+}
+body{
+    background-color:rgb(220, 214, 205);
+}
+
+main{
+    padding: 8em;
+
+}
+
+.large{
+    font-size: 45px;
+
+}
+
+div{
+    display: inline;
+    text-decoration: none;
+}
+
+.img1{
+    margin-left: 280px;
+    float: left;
+}
+
+.img2{
+    width: 500px;
+    height: 100px;
+    margin-left: -65px;
+}
