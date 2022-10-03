@@ -35,6 +35,12 @@ main{
 
 }
 
+main{
+    padding: 1em;
+    font-size: 11px;
+    border-right: 300px;
+
+}
 
 }
 
@@ -54,6 +60,14 @@ div{
     float: left;
 }
 }
+
+@media (max-width: 375px)
+{ .img1{
+   margin-top: 100px;
+   margin-bottom: -100px;
+}
+}
+
 
 @media (min-width: 375px){.img2{
     width: 500px;
