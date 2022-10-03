@@ -24,7 +24,17 @@ body{
 }
 
 main{
+
     padding: 8em;
+}
+
+@media (max-width: 400px) {
+	main{
+    padding: 1em;
+    font-size: 11px;
+
+}
+
 
 }
 
@@ -38,13 +48,17 @@ div{
     text-decoration: none;
 }
 
-.img1{
+@media (min-width: 375px)
+{ .img1{
     margin-left: 280px;
     float: left;
 }
+}
 
-.img2{
+@media (min-width: 375px){.img2{
     width: 500px;
     height: 100px;
-    margin-left: -65px;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
