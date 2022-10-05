@@ -63,20 +63,18 @@ aside{
 
 @media ( min-width: 768px )
 {
-    body{
+    main{
         display: flex;
-        flex-wrap: wrap;
-     }
-     header,
-     footer{
-        width: 100%;
-     }
-     aside,
-     nav{
-        width: 33%;
-     }
-     article{
-        width: 50%;
-     }
+        flex-direction: row;
+    }
+    nav,
+    aside{
+        width: 25%;
+    }
+
+    article{
+        flex-grow: 1;
+    }
+       
 
 } 
