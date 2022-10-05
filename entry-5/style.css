@@ -1,0 +1,59 @@
+:root{
+    --page-spacing: 24px;
+    --font-size:    16px;
+}
+
+@media ( min-width: 768px )
+{
+    :root{
+        --page-spacing: 36px;
+        --font-size:    24px;
+    }
+
+}
+
+body{
+   font size: var(--font-size);
+    font-family: sans-serif;
+
+}
+
+h1{
+    font-size: calc(var(--font-size) * 4);
+}
+
+h2{
+    font-size: calc(var(--font-size) * 2);
+
+}
+
+p{ max-width: 80ch; }
+
+h:not(first-child),
+p:not(first-child){
+    margin-top: var(--font-size);
+}
+
+a{
+    color:cornflowerblue;
+}
+
+header,
+nav,
+article,
+head,
+aside,
+footer {
+    padding: var(--page-spacing);
+
+}
+
+header,
+footer{
+    background-color: peachpuff;
+}
+
+nav,
+aside{
+    background-color: azure;
+}
