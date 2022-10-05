@@ -9,14 +9,17 @@
         --page-spacing: 36px;
         --font-size:    24px;
     }
+    body{
+        display: flex;
+     }
 
 }
 
 body{
-   font size: var(--font-size);
+    font-size: var(--font-size);
     font-family: sans-serif;
-
 }
+
 
 h1{
     font-size: calc(var(--font-size) * 4);
@@ -57,3 +60,23 @@ nav,
 aside{
     background-color: azure;
 }
+
+@media ( min-width: 768px )
+{
+    body{
+        display: flex;
+        flex-wrap: wrap;
+     }
+     header,
+     footer{
+        width: 100%;
+     }
+     aside,
+     nav{
+        width: 33%;
+     }
+     article{
+        width: 50%;
+     }
+
+} 
