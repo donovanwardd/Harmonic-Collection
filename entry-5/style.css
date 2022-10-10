@@ -3,7 +3,7 @@
     --font-size:    16px;
 }
 
-@media ( min-width: 768px )
+@media ( min-width: 1080px )
 {
     :root{
         --page-spacing: 36px;
@@ -17,7 +17,7 @@
 
 body{
     font-size: var(--font-size);
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -27,7 +27,11 @@ h1{
 
 h2{
     font-size: calc(var(--font-size) * 2);
+}
 
+h4{
+    color: rgb(220, 214, 205);;
+    user-select: none;
 }
 
 p{ max-width: 80ch; }
@@ -37,9 +41,6 @@ p:not(first-child){
     margin-top: var(--font-size);
 }
 
-a{
-    color:cornflowerblue;
-}
 
 header,
 nav,
@@ -53,28 +54,58 @@ footer {
 
 header,
 footer{
-    background-color: peachpuff;
+    background-color:rgb(205, 197, 185);
+}
+
+header{
+    border-bottom: solid black 2px;
+}
+
+h3{
+    margin-left: 22px;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 nav,
-aside{
-    background-color: azure;
+aside,
+body{
+    background-color: rgb(220, 214, 205);
 }
 
-@media ( min-width: 768px )
+nav{
+    font-size: 15px;
+    color: cornflowerblue;
+}
+
+@media ( min-width: 1080px )
 {
     main{
         display: flex;
-        flex-direction: row;
+        flex-direction:column;
+        
     }
-    nav,
-    aside{
-        width: 25%;
+    header{
+        border-bottom: none;
+    }
+    nav{
+        width: 40%;
+        font-size: 8px;
     }
 
     article{
         flex-grow: 1;
+        justify-content:left;
+        align-items: center;
+    
     }
-       
+    nav{
+        font-size: 20px;
+    }
+    footer{
+        font-size: 20px;
+        border-left: 2px;
+    }
 
 } 
+
