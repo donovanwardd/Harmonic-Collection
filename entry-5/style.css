@@ -87,6 +87,7 @@ nav{
     }
     header{
         border-bottom: none;
+        width: 40%;
     }
     nav{
         width: 40%;
@@ -106,6 +107,8 @@ nav{
         font-size: 20px;
         border-left: 2px;
     }
-
+    h1{
+        font-size: calc(var(--font-size) * 3);
+    }
 } 
 
