@@ -1,0 +1,19 @@
+.box1, .box2, .box3, .box4, .box5{
+  background-color:brown;
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  height: 200px;
+  max-height: 35vh;
+
+}
+
+.grid{
+  min-height: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.grid > div{
+  flex-basis: calc(33.333% - 40px)
+}
