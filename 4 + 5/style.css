@@ -114,6 +114,12 @@ nav{
         position: relative;
         top: 20px
     }
+    .img1{
+        margin: 20px;
+     }
+     .img2{
+        margin: 20px;
+     }
 } 
 
 .right{
@@ -121,3 +127,9 @@ nav{
     position: relative;
     bottom: 18.8px
 }
+.img1{
+    margin: 20px;
+ }
+ .img2{
+    margin: 20px;
+ }
