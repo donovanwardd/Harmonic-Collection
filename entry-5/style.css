@@ -83,12 +83,15 @@ nav{
     main{
         display: flex;
         flex-direction:column;
+        height: 100%;
+        width: 100%
         
     }
     header{
         border-bottom: none;
-        width: 40%;
+        width: 20%;
     }
+
     nav{
         width: 40%;
         font-size: 8px;
@@ -103,12 +106,30 @@ nav{
     nav{
         font-size: 20px;
     }
-    footer{
-        font-size: 20px;
-        border-left: 2px;
-    }
     h1{
-        font-size: calc(var(--font-size) * 3);
+        font-size: calc(var(--font-size) * 1.5);
     }
+    .right{
+        text-align: right;
+        position: relative;
+        top: 20px
+    }
+    .img1{
+        margin: 20px;
+     }
+     .img2{
+        margin: 20px;
+     }
 } 
 
+.right{
+    text-align: right;
+    position: relative;
+    bottom: 18.8px
+}
+.img1{
+    margin: 20px;
+ }
+ .img2{
+    margin: 20px;
+ }
