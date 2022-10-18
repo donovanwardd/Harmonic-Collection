@@ -11,6 +11,7 @@ h2{
 	align-items: center;
 	padding: 0.1em;
 	margin: auto;
+	color: #cecfd0;
 }
 
 h1::after{
@@ -58,7 +59,8 @@ a{
 }
 
 .boxes:hover{
-	background-color: black;
+	background-color: #cecfd0;
+	border: none;
 	color: #E7E7E7;
 	cursor: pointer;
 	transform: scale(1.03);

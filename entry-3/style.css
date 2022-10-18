@@ -23,6 +23,11 @@ body{
 
 h1{
     font-size: calc(var(--font-size) * 4);
+    color: #E7E7E7;
+}
+
+div{
+    color: #E7E7E7;
 }
 
 h2{
@@ -30,7 +35,7 @@ h2{
 }
 
 h4{
-    color: rgb(220, 214, 205);;
+    color: #E7E7E7;
     user-select: none;
 }
 
@@ -54,11 +59,7 @@ footer {
 
 header,
 footer{
-    background-color:rgb(205, 197, 185);
-}
-
-header{
-    border-bottom: solid black 2px;
+    background-color:#cecfd0;
 }
 
 h3{
@@ -70,7 +71,7 @@ h3{
 nav,
 aside,
 body{
-    background-color: rgb(220, 214, 205);
+    background-color: #E7E7E7;
 }
 
 nav{
