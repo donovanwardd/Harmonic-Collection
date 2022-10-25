@@ -17,14 +17,17 @@
 
 body{
     font-size: var(--font-size);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(86, 104, 144) ;
 }
 
 
 h1{
     font-size: calc(var(--font-size) * 4);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #E7E7E7;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(241, 236, 222);
 }
 
 h2{
@@ -33,11 +36,11 @@ h2{
 }
 
 div{
-    color: #E7E7E7;
+    color: rgb(241, 236, 222);
 }
 
 h4{
-    color: #E7E7E7;
+    color: rgb(241, 236, 222);
     user-select: none;
 }
 
@@ -61,7 +64,7 @@ footer {
 
 header,
 footer{
-    background-color: #cecfd0;
+    background-color: rgb(86, 104, 144) ;
 }
 
 h3{
@@ -73,7 +76,7 @@ h3{
 nav,
 aside,
 body{
-    background-color: #E7E7E7;
+    background-color: rgb(241, 236, 222);
 }
 
 nav{
@@ -123,6 +126,10 @@ nav{
      .img2{
         margin: 20px;
      }
+
+     body{
+        font-size: 12pt;
+     }
 } 
 
 .right{
@@ -136,20 +143,3 @@ nav{
  .img2{
     margin: 20px;
  }
-
- svg {
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  .container {
-    display: inline-block;
-    position:sticky;
-    margin-top: 800px;
-    width: 100%;
-    padding-bottom: 100%;
-    vertical-align: middle;
-    overflow: hidden;
-    z-index: -100;
-  }
