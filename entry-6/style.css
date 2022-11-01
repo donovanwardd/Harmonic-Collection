@@ -23,7 +23,7 @@ body{
 
 
 h1{
-    font-size: calc(var(--font-size) * 4);
+    font-size: calc(var(--font-size) * 3);
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-style: italic;
@@ -128,9 +128,16 @@ nav{
      }
 
      body{
-        font-size: 12pt;
+        font-size: 10pt;
      }
 } 
+
+@media ( max-width: 376px )
+{
+body{
+    font-size: 11pt;
+ }
+}
 
 .right{
     text-align: right;
