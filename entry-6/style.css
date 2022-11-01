@@ -90,7 +90,7 @@ nav{
         display: flex;
         flex-direction:column;
         height: 100%;
-        width: 100%
+        width: 100%;
         
     }
     header{
@@ -118,7 +118,7 @@ nav{
     .right{
         text-align: right;
         position: relative;
-        top: 20px
+        top: 20px;
     }
     .img1{
         margin: 20px;
@@ -135,7 +135,7 @@ nav{
 .right{
     text-align: right;
     position: relative;
-    bottom: 18.8px
+    bottom: 18.8px;
 }
 .img1{
     margin: 20px;
