@@ -1,0 +1,128 @@
+:root{
+    --page-spacing: 24px;
+    --font-size:    16px;
+}
+
+@media ( max-width: 375px )
+{
+    h1{
+        background-color: firebrick;
+    }
+    .directbox {
+        width: 200px; 
+        text-align: center;
+        font-size: 25px;
+        border: solid cornflowerblue;
+        border-radius: 10px;
+        color: cornflowerblue;
+        height: 40px;
+        white-space: nowrap;
+        padding-bottom: 58px;
+    
+      }
+
+      .wrapper{
+        display: flex;
+        height:400px;
+        flex-flow: column;
+        align-content: center;
+        margin-bottom: -25px;
+        margin-left: -29px;
+    }
+
+      .boxes {
+        color: cornflowerblue;
+        width: 380px;
+        margin: auto;
+        text-align: center;
+        line-height: 30px;
+        font-size: 30px;
+        border: solid black;
+        padding: 1em;
+        font-size: 10px;
+        
+        flex: 1;
+    }
+
+}
+
+body{
+    font-size: var(--font-size);
+    
+    color: rgb(86, 104, 144) ;
+}
+
+
+h1{
+    font-size: calc(var(--font-size) * 3);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(241, 236, 222);
+}
+
+h2{
+    font-size: calc(var(--font-size) * 2);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div{
+    color: rgb(241, 236, 222);
+}
+
+h4{
+    color: rgb(241, 236, 222);
+    user-select: none;
+}
+
+p{ max-width: 80ch; }
+
+h:not(first-child),
+p:not(first-child){
+    margin-top: var(--font-size);
+}
+
+
+header,
+nav,
+article,
+head,
+aside,
+footer {
+    padding: var(--page-spacing);
+
+}
+
+header,
+footer{
+    background-color: rgb(86, 104, 144) ;
+}
+
+h3{
+    margin-left: 22px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+nav,
+aside,
+body{
+    background-color: rgb(241, 236, 222);
+}
+
+nav{
+    font-size: 15px;
+    color: cornflowerblue;
+}
+
+.right{
+    text-align: right;
+    position: relative;
+    bottom: 18.8px;
+}
+.img1{
+    margin: 20px;
+ }
+ .img2{
+    margin: 20px;
+ }
