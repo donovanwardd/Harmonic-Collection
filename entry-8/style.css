@@ -3,70 +3,6 @@
     --font-size:    16px;
 }
 
-@media ( max-width: 380px )
-{
-    .directbox {
-        width: 200px; 
-        text-align: center;
-        font-size: 25px;
-        border: solid rgb(128, 122, 52);
-        border-radius: 10px;
-        color: rgb(128, 122, 52);
-        height: 40px;
-        white-space: nowrap;
-        padding-bottom: 58px;
-    
-      }
-
-      .wrapper{
-        display: flex;
-        height:400px;
-        flex-flow: column;
-        align-content: center;
-        margin-bottom: 55px;
-        margin-left: -29px;
-    }
-
-      .boxes {
-        color: rgb(128, 122, 52);
-        width: 380px;
-        margin: auto;
-        text-align: center;
-        line-height: 35px;
-        font-size: x-large;
-        border: solid rgb(128, 122, 52);
-        padding: 1em;
-        font-size: 10px;
-        font-weight: bold;
-        flex: 1;
-      }
-
-        .boxes:hover{
-            background-color: rgb(128, 122, 52);
-            border: none;
-            color: rgb(240, 224, 204);
-            cursor: pointer;
-            transform: scale(1.03);
-            transition: all 0.4s ease;
-        }
-        
-        .boxes:hover > a {
-            color: rgb(240, 224, 204);
-        }
-
-        .bigger{
-            font-size: 35px;
-            text-align: center;
-            display: flex;
-            flex-flow: column;
-            align-content: left;
-            margin-bottom: -33px;
-            margin-left: -300px;
-            z-index: 9999;
-            
-           }
-    }
-
 .boxes:hover{
 	background-color: rgb(128, 122, 52);
 	border: none;
@@ -97,7 +33,6 @@ h1{
 
 h2{
     font-size: calc(var(--font-size) * 2);
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 div{
@@ -160,4 +95,148 @@ nav{
  }
  .img2{
     margin: 20px;
+ }
+
+.sidescroll{
+ --base: 20px;
+ display: grid;
+ gap: var(--base);
+ padding: var(--base);
+ background-color: gold;
+ padding: calc(var(--base) / 2);
+}
+
+section:nth-child(1) {
+	display: flex; /* Horizontal layout. */
+	gap: var(--base);
+	overflow-x: auto; /* Scroll horizontally! */
+	overflow-y: hidden;
+}
+
+.directbox {
+    width: 600px; 
+    text-align: center;
+    font-size: 25px;
+    border: solid rgb(128, 122, 52);
+    border-radius: 10px;
+    color: rgb(128, 122, 52);
+    height: 40px;
+    white-space: nowrap;
+    padding-bottom: 58px;
+
+  }
+
+  .wrapper{
+    display: flex;
+    height:400px;
+    flex-flow: column;
+    align-content: center;
+    margin-bottom: 55px;
+    margin-left: -29px;
+}
+
+  .boxes {
+    color: rgb(128, 122, 52);
+    width: 380px;
+    margin: auto;
+    text-align: center;
+    line-height: 35px;
+    font-size: x-large;
+    border: solid rgb(128, 122, 52);
+    padding: 1em;
+    font-size: 10px;
+    font-weight: bold;
+    flex: 1;
+  }
+
+    .boxes:hover{
+        background-color: rgb(128, 122, 52);
+        border: none;
+        color: rgb(240, 224, 204);
+        cursor: pointer;
+        transform: scale(1.03);
+        transition: all 0.4s ease;
+    }
+    
+    .boxes:hover > a {
+        color: rgb(240, 224, 204);
+    }
+
+    .bigger{
+        font-size: 35px;
+        text-align: center;
+        display: flex;
+        flex-flow: column;
+        align-content: left;
+        margin-bottom: -33px;
+        margin-left: -300px;
+        z-index: 9999;
+        
+       }
+
+
+
+
+@media ( max-width: 380px )
+{
+    .directbox {
+        width: 200px; 
+        text-align: center;
+        font-size: 25px;
+        border: solid rgb(128, 122, 52);
+        border-radius: 10px;
+        color: rgb(128, 122, 52);
+        height: 40px;
+        white-space: nowrap;
+        padding-bottom: 58px;
+    
+      }
+
+      .wrapper{
+        display: flex;
+        height:400px;
+        flex-flow: column;
+        align-content: center;
+        margin-bottom: 55px;
+        margin-left: -29px;
+    }
+
+      .boxes {
+        color: rgb(128, 122, 52);
+        width: 380px;
+        margin: auto;
+        text-align: center;
+        line-height: 35px;
+        font-size: x-large;
+        border: solid rgb(128, 122, 52);
+        padding: 1em;
+        font-size: 10px;
+        font-weight: bold;
+        flex: 1;
+      }
+
+        .boxes:hover{
+            background-color: rgb(128, 122, 52);
+            border: none;
+            color: rgb(240, 224, 204);
+            cursor: pointer;
+            transform: scale(1.03);
+            transition: all 0.4s ease;
+        }
+        
+        .boxes:hover > a {
+            color: rgb(240, 224, 204);
+        }
+
+        .bigger{
+            font-size: 35px;
+            text-align: center;
+            display: flex;
+            flex-flow: column;
+            align-content: left;
+            margin-bottom: -33px;
+            margin-left: -300px;
+            z-index: 9999;
+            
+           }
  }
