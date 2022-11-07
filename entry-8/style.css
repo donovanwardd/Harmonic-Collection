@@ -97,80 +97,75 @@ nav{
     margin: 20px;
  }
 
- .directbox {
-    width: 600px; 
-    text-align: center;
-    font-size: 25px;
-    border: solid rgb(128, 122, 52);
-    border-radius: 10px;
-    color: rgb(128, 122, 52);
-    height: 40px;
-    white-space: nowrap;
-    padding-bottom: 58px;
 
-  }
+       @media ( max-width: 380px )
+       {
+           .directbox {
+               width: 200px; 
+               text-align: center;
+               font-size: 25px;
+               border: solid rgb(128, 122, 52);
+               border-radius: 10px;
+               color: rgb(128, 122, 52);
+               height: 40px;
+               white-space: nowrap;
+               padding-bottom: 58px;
+       
+             }
+       
+             .wrapper{
+               display: flex;
+               height:400px;
+               flex-flow: column;
+               align-content: center;
+               margin-bottom: 55px;
+               margin-left: -29px;
+           }
+       
+             .boxes {
+               color: rgb(128, 122, 52);
+               width: 380px;
+               margin: auto;
+               text-align: center;
+               line-height: 35px;
+               font-size: x-large;
+               border: solid rgb(128, 122, 52);
+               padding: 1em;
+               font-size: 10px;
+               font-weight: bold;
+               flex: 1;
+             }
+       
+               .boxes:hover{
+                   background-color: rgb(128, 122, 52);
+                   border: none;
+                   color: rgb(240, 224, 204);
+                   cursor: pointer;
+                   transform: scale(1.03);
+                   transition: all 0.4s ease;
+               }
+       
+               .boxes:hover > a {
+                   color: rgb(240, 224, 204);
+               }
+       
+               .bigger{
+                   font-size: 35px;
+                   text-align: center;
+                   display: flex;
+                   flex-flow: column;
+                   align-content: left;
+                   margin-bottom: -33px;
+                   margin-left: -300px;
+                   z-index: 9999;
+       
+                  }
+           }
 
-
-
-  .wrapper{
-    display: flex;
-    height:400px;
-    width: 600px;
-    flex-flow: column;
-    flex-direction: column-reverse;
-    align-content: center;
-    margin-bottom: 55px;
-    margin-left: -29px;
-    overflow-y: auto;
-    transform: rotate(90deg);
-}
-
-  .boxes {
-    color: rgb(128, 122, 52);
-    width: 380px;
-    height: 400px;
-    margin: auto;
-    text-align: center;
-    line-height: 35px;
-    font-size: x-large;
-    border: solid rgb(128, 122, 52);
-    padding: 1em;
-    font-size: 10px;
-    font-weight: bold;
-    flex: 1;
-  }
-
-    .boxes:hover{
-        background-color: rgb(128, 122, 52);
-        border: none;
-        color: rgb(240, 224, 204);
-        cursor: pointer;
-        transform: scale(1.03);
-        transition: all 0.4s ease;
-    }
-    
-    .boxes:hover > a {
-        color: rgb(240, 224, 204);
-    }
-
-    .bigger{
-        font-size: 35px;
-        text-align: center;
-        display: flex;
-        flex-flow: column;
-        align-content: left;
-        margin-bottom: -33px;
-        margin-left: -300px;
-        z-index: 9999;
-        transform: rotate(-90deg);
-       }
-
-
-
-@media ( max-width: 380px )
+@media ( min-width: 381px )
 {
     .directbox {
-        width: 200px; 
+        width: 600px; 
         text-align: center;
         font-size: 25px;
         border: solid rgb(128, 122, 52);
@@ -181,19 +176,26 @@ nav{
         padding-bottom: 58px;
     
       }
-
+    
+    
+    
       .wrapper{
         display: flex;
         height:400px;
+        width: 600px;
         flex-flow: column;
+        flex-direction: column-reverse;
         align-content: center;
         margin-bottom: 55px;
         margin-left: -29px;
+        overflow-y: auto;
+        transform: rotate(90deg);
     }
-
+    
       .boxes {
         color: rgb(128, 122, 52);
         width: 380px;
+        height: 400px;
         margin: auto;
         text-align: center;
         line-height: 35px;
@@ -204,7 +206,7 @@ nav{
         font-weight: bold;
         flex: 1;
       }
-
+    
         .boxes:hover{
             background-color: rgb(128, 122, 52);
             border: none;
@@ -217,7 +219,7 @@ nav{
         .boxes:hover > a {
             color: rgb(240, 224, 204);
         }
-
+    
         .bigger{
             font-size: 35px;
             text-align: center;
@@ -227,6 +229,8 @@ nav{
             margin-bottom: -33px;
             margin-left: -300px;
             z-index: 9999;
-            
+            transform: rotate(-90deg);
            }
- }
+    
+
+}
