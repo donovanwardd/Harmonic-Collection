@@ -160,6 +160,31 @@ nav{
                    z-index: 9999;
        
                   }
+
+                  @keyframes travel {
+
+                    0% {
+                        opacity: 1;
+                    }
+                
+                    50% {
+                        opacity: 0;
+                    }
+                
+                    100% {
+                        opacity: 1;
+                    }
+                }
+                
+               section {
+                    animation: travel 5s infinite ease-in-out;
+                }
+        
+                .greenagain{
+                    color: rgb(128, 122, 52);
+                    font-size: 8.5px;
+                }
+        
            }
 
 @media ( min-width: 381px )
