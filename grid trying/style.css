@@ -1,19 +1,90 @@
-.box1, .box2, .box3, .box4, .box5{
-  background-color:brown;
-  border-radius: 10px 10px 10px 10px;
-  overflow: hidden;
-  height: 200px;
-  max-height: 35vh;
-
-}
-
-.grid{
-  min-height: 100%;
-  display:flex;
-  flex-wrap: wrap;
+.wrapper{
+  display: flex;
+  height:400px;
+  width: 100%;
+  flex-flow: row;
   flex-direction: row;
+  align-content: center;
+  margin-bottom: 55px;
+  margin-left: -29px;
+  overflow-y: auto;
 }
 
-.grid > div{
-  flex-basis: calc(33.333% - 40px)
+.boxes {
+  color: rgb(128, 122, 52);
+  width: 380px;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  line-height: 35px;
+  font-size: x-large;
+  border: solid rgb(128, 122, 52);
+  font-size: 10px;
+  font-weight: bold;
+  flex: 1;
+  
 }
+
+.content{
+  display: flex;
+  flex: column;
+  text-align: left;
+  width: 180px;
+  height: 100px;
+  margin-top: 190px;
+  margin-right: 50px;
+  transform: rotate(90deg);
+}
+
+.align2{
+  margin-left: -15.5px;
+}
+
+.align3{
+  margin-left: 16.5px;
+}
+.align4{
+  margin-left: 2px;
+}
+.align5{
+  margin-left: -32px;
+}
+.align6{
+  margin-left: -25px;
+}
+.align7{
+  margin-left: 7px;
+}
+.align8{
+  margin-left: 1px;
+}
+.align9{
+  margin-left: 14px;
+}
+
+
+
+  .boxes:hover{
+      background-color: rgb(128, 122, 52);
+      border: none;
+      color: rgb(240, 224, 204);
+      cursor: pointer;
+      transform: scale(1.03);
+      transition: all 0.4s ease;
+  }
+  
+  .boxes:hover > a {
+      color: rgb(240, 224, 204);
+  }
+
+  .bigger{
+      font-size: 35px;
+      text-align: center;
+      display: flex;
+      flex-flow: column;
+      align-content: left;
+      margin-bottom: -33px;
+      margin-left: -330px;
+      z-index: 9999;
+      transform: rotate(-90deg);
+     }
