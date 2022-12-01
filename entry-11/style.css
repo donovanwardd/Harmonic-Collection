@@ -1,0 +1,432 @@
+:root{
+    --page-spacing: 24px;
+    --font-size:    16px;
+}
+
+.boxes:hover{
+	background-color: rgb(128, 122, 52);
+	border: none;
+	color: rgb(240, 224, 204);
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: all 0.4s ease;
+}
+
+.boxes:hover > a {
+	color: rgb(240, 224, 204);
+}
+
+
+body{
+    font-size: var(--font-size);
+    font-family: korolev, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color: rgb(128, 122, 52);
+}
+
+
+h1{
+    font-size: calc(var(--font-size) * 3);
+    color: rgb(240, 224, 204);
+}
+
+h2{
+    font-size: calc(var(--font-size) * 2);
+}
+
+div{
+    color: rgb(240, 224, 204);
+}
+
+h4{
+    color: rgb(240, 224, 204);
+    user-select: none;
+}
+
+p{ max-width: 80ch; }
+
+h:not(first-child),
+p:not(first-child){
+    margin-top: var(--font-size);
+}
+
+
+header,
+nav,
+article,
+head,
+aside,
+footer {
+    padding: var(--page-spacing);
+
+}
+
+header,
+footer{
+    background-color: rgb(128, 122, 52);
+    z-index: 999;
+}
+
+h3{
+    margin-left: 22px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+nav,
+aside,
+body{
+    background-color: rgb(240, 224, 204);
+}
+
+nav{
+    font-size: 15px;
+    color: cornflowerblue;
+}
+
+.right{
+    text-align: right;
+    position: relative;
+    bottom: 18.8px;
+}
+
+.bottom-box{
+    display: block;
+}
+
+.img1{
+    margin: 20px;
+ }
+ .img2{
+    margin: 20px;
+ }
+
+ header{
+    background-image: url("header.jpg");
+	background-size: cover;
+ }
+
+ footer{
+    z-index: 9999; 
+ }
+
+
+       @media ( max-width: 380px )
+       {
+        .directbox {
+            width: 200px; 
+            text-align: center;
+            font-size: 25px;
+            border: solid rgb(128, 122, 52);
+            border-radius: 10px;
+            color: rgb(128, 122, 52);
+            height: 40px;
+            white-space: nowrap;
+            padding-bottom: 58px;
+          }
+
+          button {
+            cursor: pointer;
+            width: 200px; 
+            text-align: center;
+            font-size: 20px;
+            border: solid rgb(128, 122, 52);
+            border-radius: 40px;
+            color: rgb(128, 122, 52);
+            height: 40px;
+            white-space: nowrap;
+            
+        }
+    
+        button:hover
+        {
+            background-color: rgb(128, 122, 52);
+                border: none;
+                color: rgb(240, 224, 204);
+                cursor: pointer;
+                transform: scale(1.03);
+                transition: all 0.4s ease;
+        }
+
+        .wrapper{
+            display: flex;
+            height: 400px;
+            width: 100%;
+            flex-flow: row;
+            flex-direction: row;
+            align-content: center;
+            overflow-y: auto;
+          }
+          
+          .boxes{
+            color: rgb(128, 122, 52);
+            width: 380px;
+            height: 400px;
+            margin: auto;
+            text-align: center;
+            line-height: 35px;
+            font-size: x-large;
+            border: solid rgb(128, 122, 52);
+            font-size: 13px;
+            font-weight: bold;
+            flex: 1;
+            margin-top: 80px;
+            
+          }
+          
+          .content{
+            display: flex;
+            flex: column;
+            text-align: left;
+            width: 180px;
+            height: 100px;
+            margin-top: 190px;
+            margin-right: 50px;
+            transform: rotate(90deg);
+          }
+          
+          .align2{
+            margin-left: -24px;
+          }
+          
+          .align3{
+            margin-left: 18px;
+          }
+          .align4{
+            margin-left: px;
+          }
+          .align5{
+            margin-left: -42px;
+          }
+          .align6{
+            margin-left: -32px;
+          }
+          .align7{
+            margin-left: 6.5px;
+          }
+          .align8{
+            margin-left: 1px;
+          }
+          .align9{
+            margin-left: 15px;
+          }
+          .align10{
+            margin-left: -6px;
+          }
+          .align11{
+            margin-left: -15.5px;
+          }
+          
+          
+            .boxes:hover{
+                background-color: rgb(128, 122, 52);
+                border: none;
+                color: rgb(240, 224, 204);
+                cursor: pointer;
+                transform: scale(1.03);
+                transition: all 0.4s ease;
+            }
+            
+            .boxes:hover > a {
+                color: rgb(240, 224, 204);
+            }
+          
+            .bigger{
+                font-size: 35px;
+                text-align: center;
+                display: flex;
+                flex-flow: column;
+                align-content: left;
+                margin-bottom: -33px;
+                margin-left: -330px;
+                z-index: 9999;
+                transform: rotate(-90deg);
+               }
+
+                  @keyframes travel {
+
+                    0% {
+                        opacity: 1;
+                    }
+                
+                    50% {
+                        opacity: 0;
+                    }
+                
+                    100% {
+                        opacity: 1;
+                    }
+                }
+                
+               .faderlight {
+                    animation: travel 5s infinite ease-in-out;
+                }
+        
+                @keyframes fader {
+        
+                    0% {
+                        opacity: 0;
+                    }
+                
+                    50% {
+                        opacity: 1;
+                    }
+                
+                    100% {
+                        opacity: 0;
+                    }
+                }
+        
+                .faderdark{
+                    animation: fader 5s infinite ease-in-out;
+                }
+        
+                .greenagain{
+                    color: rgb(128, 122, 52);
+                    font-size: 8.5px;
+                }
+        
+           }
+
+@media ( min-width: 381px )
+{
+    .directbox {
+        width: 200px; 
+        text-align: center;
+        font-size: 25px;
+        border: solid rgb(128, 122, 52);
+        border-radius: 10px;
+        color: rgb(128, 122, 52);
+        height: 40px;
+        white-space: nowrap;
+        padding-bottom: 58px;
+      }
+
+      button {
+        cursor: pointer;
+        width: 200px; 
+        text-align: center;
+        font-size: 20px;
+        border: solid rgb(128, 122, 52);
+        border-radius: 40px;
+        color: rgb(128, 122, 52);
+        height: 40px;
+        white-space: nowrap;
+        
+    }
+
+    button:hover
+    {
+        background-color: rgb(128, 122, 52);
+            border: none;
+            color: rgb(240, 224, 204);
+            cursor: pointer;
+            transform: scale(1.03);
+            transition: all 0.4s ease;
+    }
+
+      .wrapper{
+        display: flex;
+        height: 400px;
+        flex-flow: column;
+        align-content: center;
+        margin-bottom: 232px;
+    }
+
+      .boxes {
+        color: rgb(128, 122, 52);
+        width: 111%;
+        margin: auto;
+        margin-left: -30px;
+        text-align: center;
+        line-height: 35px;
+        font-size: x-large;
+        border: solid rgb(128, 122, 52);
+        padding: 1em;
+        font-size: 10px;
+        font-weight: bold;
+        flex: 1;
+      }
+
+        .boxes:hover{
+            background-color: rgb(128, 122, 52);
+            border: none;
+            color: rgb(240, 224, 204);
+            cursor: pointer;
+            transform: scale(1.03);
+            transition: all 0.4s ease;
+        }
+
+        .boxes:hover > a {
+            color: rgb(240, 224, 204);
+        }
+
+        .bigger{
+            font-size: 35px;
+            text-align: center;
+            display: flex;
+            flex-flow: column;
+            align-content: left;
+            margin-bottom: -33px;
+            margin-left: -300px;
+            z-index: 9999;
+
+           }
+    
+           @keyframes travel {
+
+            0% {
+                opacity: 1;
+            }
+        
+            50% {
+                opacity: 0;
+            }
+        
+            100% {
+                opacity: 1;
+            }
+        }
+        
+       .faderlight {
+            animation: travel 5s infinite ease-in-out;
+        }
+
+        @keyframes fader {
+
+            0% {
+                opacity: 0;
+            }
+        
+            50% {
+                opacity: 1;
+            }
+        
+            100% {
+                opacity: 0;
+            }
+        }
+
+        .faderdark{
+            animation: fader 5s infinite ease-in-out;
+        }
+
+        .greenagain{
+            color: rgb(128, 122, 52);
+        }
+
+        .reveal
+        {
+            position: relative;
+            transform: translateY( 150px );
+            opacity: 0;
+            transition: all 1.5s ease;
+        }
+
+        .reveal.active
+        {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+}
