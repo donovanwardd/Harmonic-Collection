@@ -2,7 +2,7 @@
 let button = document.querySelector('#example');
 
 button.onclick = () => {
-	alert('"The only way to make sense out of change is to plunge into it, move with it, and join the dance." -Alan Watts');
+	alert('"I have moments where I miss my old self. But I think anyone can get caught up in what we used to have. But at the same time, we can choose to focus on the beauty of now." -Steve Gleason');
 };
 
 window.addEventListener('scroll', reveal);
