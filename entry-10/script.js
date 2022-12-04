@@ -2,7 +2,7 @@
 let button = document.querySelector('#example');
 
 button.onclick = () => {
-	alert('"The only way to make sense out of change is to plunge into it, move with it, and join the dance." -Alan Watts');
+	alert('"Keep your face always toward the sunshine - and shadows will fall behind you.". -Walt Whitman');
 };
 
 window.addEventListener('scroll', reveal);
