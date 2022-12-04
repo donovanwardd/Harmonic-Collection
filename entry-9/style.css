@@ -90,11 +90,25 @@ nav{
     position: relative;
     bottom: 18.8px;
 }
+
+.bottom-box{
+    display: block;
+}
+
 .img1{
     margin: 20px;
  }
  .img2{
     margin: 20px;
+ }
+
+ header{
+    background-image: url("header.jpg");
+	background-size: cover;
+ }
+
+ footer{
+    z-index: 9999; 
  }
 
 
@@ -197,7 +211,12 @@ nav{
           .align9{
             margin-left: 15px;
           }
-          
+          .align10{
+            margin-left: -6px;
+          }
+          .align11{
+            margin-left: -15.5px;
+          }
           
           
             .boxes:hover{
@@ -312,7 +331,7 @@ nav{
         height: 400px;
         flex-flow: column;
         align-content: center;
-        margin-bottom: 110px;
+        margin-bottom: 232px;
     }
 
       .boxes {
@@ -329,6 +348,8 @@ nav{
         font-weight: bold;
         flex: 1;
       }
+
+   
 
         .boxes:hover{
             background-color: rgb(128, 122, 52);

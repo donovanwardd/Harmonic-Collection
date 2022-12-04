@@ -2,7 +2,7 @@
 let button = document.querySelector('#example');
 
 button.onclick = () => {
-	alert('"They who dream by day are cognizant of many things which escape those who dream only by night". -Edgar Allan Poe');
+	alert('"The only way to make sense out of change is to plunge into it, move with it, and join the dance." -Alan Watts');
 };
 
 window.addEventListener('scroll', reveal);

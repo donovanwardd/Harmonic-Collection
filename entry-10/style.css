@@ -214,6 +214,9 @@ nav{
           .align10{
             margin-left: -6px;
           }
+          .align11{
+            margin-left: -15.5px;
+          }
           
           
             .boxes:hover{
@@ -328,7 +331,7 @@ nav{
         height: 400px;
         flex-flow: column;
         align-content: center;
-        margin-bottom: 172px;
+        margin-bottom: 232px;
     }
 
       .boxes {
@@ -345,6 +348,8 @@ nav{
         font-weight: bold;
         flex: 1;
       }
+
+   
 
         .boxes:hover{
             background-color: rgb(128, 122, 52);
