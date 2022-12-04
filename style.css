@@ -11,7 +11,7 @@ h2{
 	align-items: center;
 	padding: 0.1em;
 	margin: auto;
-	color: #cecfd0;
+	color: black;
 }
 
 h1::after{
@@ -19,7 +19,7 @@ h1::after{
     content:' ';
     display:block;
     border:1px solid black;
-	width: 100%;
+	width: 160%;
 }
 
 .wrapper{
@@ -41,6 +41,8 @@ h1::after{
 	border-radius: 5px;
 	padding: 0.3em;
 }
+
+
 
 
 body{
@@ -67,6 +69,31 @@ a{
 	transition: all 0.4s ease;
 }
 
+.boxes:hover:nth-child(6)
+{
+	background-color: rgb(128, 122, 52);
+}
+.boxes:hover:nth-child(7)
+{
+	background-color: rgb(128, 122, 52);
+}
+.boxes:hover:nth-child(8)
+{
+	background-color: rgb(128, 122, 52);
+}
+.boxes:hover:nth-child(9)
+{
+	background-color: rgb(128, 122, 52);
+}
+.boxes:hover:nth-child(10)
+{
+	background-color: rgb(128, 122, 52);
+}
+.boxes:hover:nth-child(11)
+{
+	background-color: rgb(128, 122, 52);
+}
+
 .boxes:hover > a {
 	color: #E7E7E7;
 }
@@ -84,4 +111,58 @@ html, body {
     margin: auto;
 	display: table-cell;
     vertical-align: middle;
+}
+
+@keyframes travel {
+
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.faderlight {
+	animation: travel 5s infinite ease-in-out;
+}
+
+@keyframes fader {
+
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.faderdark{
+	animation: fader 5s infinite ease-in-out;
+}
+
+.greenagain{
+	color: black;
+}
+
+.move{
+	display: flex;
+	margin-left: 45px;
+    
+}
+
+.move2{
+	display: flex;
+	margin-left: 45px;
+	margin-top: 360px;
 }
